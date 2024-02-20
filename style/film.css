@@ -8,6 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100%;
 }
 
 header {
@@ -15,8 +16,8 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    min-height: 10vh;
-    padding:30px;
+    /* height: 5%; */
+    padding:5px;
     background: black;
     color: white;
     font-size: 1.2rem;
@@ -36,9 +37,37 @@ a {
 main {
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    min-height: 70vh;
+    width:90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    padding: 30px;
+    align-items: center;
+    height: 80%;
+}
+
+button {
+    width: 6rem;
+    height: 2rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container>img {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+
+}
+
+.card-container > p {
+    max-width: 30%;
+    text-align: justify;
+    margin: 1.5rem;
 }
 
 .btn-slider {
@@ -51,8 +80,7 @@ main {
 
 footer {
     display: flex;
-    min-height: 5vh;
-    padding:30px;
+    padding:15px;
     background: black;
     color: white;
     justify-content: center;
