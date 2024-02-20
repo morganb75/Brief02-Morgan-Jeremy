@@ -29,6 +29,10 @@ header {
     height: 100px;
 }
 
+.nav-container>nav>a {
+    color: white;
+}
+
 main {
     display: flex;
     flex-direction: column;
