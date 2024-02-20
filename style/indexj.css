@@ -1,32 +1,68 @@
-body{
-   background-color: rgba(2, 0, 0, 0.692);
-   height: 100%;
-   width: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
 }
-header{
-    text-align: center;
-    color: rgb(240, 198, 198);
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    padding:30px;
+    background: black;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.logo {
+    display: flex;
     justify-content: center;
+    width: 600px;
+    height: 100px;
 }
-main{
-    background-image: url(../style/img/dbz6.jpg);
-    background-size:contain;
+
+main {
+    /* display: flex; */
+    min-height: 75vh;
+    background-image: url('../style/img/cover\ dbz.jpg');
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.7;
-    color: rgb(158, 4, 11);
+    opacity: 0.8;
+    background-color: rgba(137, 43, 226, 0.808);  
+
+    /* background: url("../assets/img/dragon-ball.jpg"); */
 }
-.manga, .film{
-    font-size: 20px;
-    font-style: italic;
-    text-decoration: underline;
-    flex-direction: row;
-    justify-content: center;
-    display: flex;
+h1{
+    margin-top: -3px;
+    margin-bottom: 20px;
+    color: rgb(4, 117, 10);
     text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.description{
-    text-align: left;
-    font-size: 15px;
-    color:rgb(0, 0, 0)
+.Présentation{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    color:rgb(3, 139, 32);
+  text-align: justify;
+
+}
+footer {
+    display: flex;
+    min-height: 5vh;
+    padding:30px;
+    background: black;
+    color: white;
+    justify-content: center;
 }
