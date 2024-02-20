@@ -22,6 +22,10 @@ header {
     font-size: 1.2rem;
 }
 
+a {
+    color: white;
+}
+
 .logo {
     display: flex;
     justify-content: center;

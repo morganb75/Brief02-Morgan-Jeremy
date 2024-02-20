@@ -3,15 +3,15 @@ window.addEventListener('load', () => {
     document.querySelector('header').innerHTML =
     `<header>
     <div class="home">
-        <p>Welcome in world of:</p>
+    <a href="./home.html">Home</a>
     </div>
     <div class="logo">
         <img src="./assets/img/Dragon-Ball-Logo.png" alt="Logo" >
     </div>
     <div class="nav-container">
         <nav class="nav-m">
-            <a href="">Presentation</a>
-            <a href="">Produits</a>
+            <a href="./presentation.html">Presentation</a>
+            <a href="./films.html">Films</a>
             <a href="./contact.html">Contact</a>
         </nav>
     </div>
