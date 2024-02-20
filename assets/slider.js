@@ -7,7 +7,7 @@ let cardDescription = document.querySelector('.card-description');
 let filmsData;
 
 //Fetch du fichier JSON des datas des films au chargement de la page
-//Initialisation des champs de card image, titre et description
+//Initialisation des champs de card id, image, titre et description
 window.addEventListener('load',() =>{
     fetch ('./assets/json/dataFilm.json')
     .then(response => response.json())
@@ -35,7 +35,6 @@ btnNext.addEventListener('click',()=>{
 btnPrev.addEventListener('click',()=>{
     let idFilm = parseInt(cardId.textContent);
     if(idFilm !== 1){
-        console.log(idFilm);
         setCard(idFilm-2);
     } else {
         setCard(9);
