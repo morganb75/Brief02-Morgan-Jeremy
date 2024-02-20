@@ -1,0 +1,62 @@
+[
+    {
+        "id":"1",
+        "url":"./assets/img-films/1.png",
+        "titre": "La légende de Sheron",
+        "description": "Le tout premier film d'animation tiré du manga Dragon Ball. On y retrouve San Goku et ses amis, à la recherche des dragon ball. En chemin, ils croiseront le monstrueux Roi Gourmet..."
+    },
+    {
+        "id":"2",
+        "url":"./assets/img-films/2.png",
+        "titre": "Le Château du démon",
+        "description": "L'initiation de San Goku et Krilin, qui devront délivrer une princesse enfermée dans un château afin de la ramener à leur maître..."
+    },
+    {
+        "id":"3",
+        "url":"./assets/img-films/3.png",
+        "titre": "L'aventure Mystique",
+        "description": "Tortue Géniale emmène Sangoku et ses amis pour un tournoi d'arts martiaux sur une mystérieuse île, dont le roi n'est autre que Chaozu."
+    },
+    {
+        "id":"4",
+        "url":"./assets/img-films/4.png",
+        "titre": "Goku et la sécurité routière",
+        "description": "Un court-métrage destiné aux plus jeunes pour les sensibiliser sur la sécurité routière, mettant en scène les personnages de l'univers Dragon Ball."
+    },
+    {
+        "id":"5",
+        "url":"./assets/img-films/5.png",
+        "titre": "Goku le pompier",
+        "description": "Court-métrage éducatif mettant en scène Sangoku et ses amis qui donnent des conseils aux plus jeunes concernant les incendies."
+    },
+    {
+        "id":"6",
+        "url":"./assets/img-films/6.png",
+        "titre": "À la poursuite de Garlic",
+        "description": "Garlic Junior, un démon, comme Piccolo, revient d’une autre dimension pour asservir la planète. Désirant réunir les sept boules de cristal, il enlève Son Gohan (coiffé d’un chapeau avec Su Shinchu). Son Goku et Piccolo vont s’allier pour combattre ce nouvel ennemi."
+    },
+    {
+        "id":"7",
+        "url":"./assets/img-films/7.png",
+        "titre": "Dragon Ball, le film",
+        "description": "Son Goku vit des jours paisibles auprès de son grand-père, apprenant l'art du combat et protégeant l'une des Dragon Balls, ces boules mystérieuses capables d'invoquer le dragon sacré qui exaucera un souhait à celui qui le réveillera. Un jour, le machiavélique Roi Cornu dérobe la boule mystique et part à la recherche des six autres afin d'asservir le monde. Partant à l'aventure pour retrouver les Dragon Balls et sauver son grand-père, Son Goku rencontre Bulma, le Maître des Tortues, Yamcha, Jade..."
+    },
+    {
+        "id":"8",
+        "url":"./assets/img-films/8.png",
+        "titre": "Le Robot des glaces",
+        "description": "Le Dr Willow enlève les plus puissants guerriers du monde afin de créer un robot super puissant. Piccolo, Kamé Sennin puis Son Goku se retrouvent séquestrés dans son repaire situé au pôle Nord. Ils devront combattre les robots du docteur afin de mettre fin à ses projets de conquête du monde."
+    },
+    {
+        "id":"9",
+        "url":"./assets/img-films/9.png",
+        "titre": "Le Combat fratricide",
+        "description": "Un nouveau Saiyan, Thalès, qui ressemble à s’y méprendre à Son Goku, arrive sur Terre avec une bande d’extraterrestres. Ils plantent un arbre qui puise l’énergie vitale de la planète pour donner naissance à des fruits qui rendent surpuissants. Son Goku et ses alliés feront tout pour les arrêter."
+    },
+    {
+        "id":"10",
+        "url":"./assets/img-films/10.png",
+        "titre": "Le Père de Songoku",
+        "description": "Sur la planète Vegeta, un guerrier de classe inférieure, Baddack, est un exemple. Ses missions sont toutes couronnées de succès. De plus, il a récemment eu un garçon. Mais il n'éprouve aucun amour pour lui car sa force de combat est seulement de 2 unités, ce qui est très faible, même pour un nourrisson, chez les Saiyans. Cet enfant porte le nom de Kakarotto. Un jour, alors qu'il se reposait après avoir attaqué la planète Kanassa avec son équipe, il est frappé à la nuque par un survivant."
+    }
+]

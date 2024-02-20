@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/film.css">
-    <script src="./assets/injectHeaderFooter.js"></script>
+    <script defer src="./assets/injectHeaderFooter.js"></script>
+    <script defer src="./assets/slider.js"></script>
     <title>Films</title>
 </head>
 <body>
   <header></header>
   <main>
     <div class="card-container">
-      <button class="prev">prev</button>
-      <img src="" class="card-img" alt="image_film">
-      <div class="card-body">
-        <h5 class="card-title">Card Title</h5>
-        <p class="card-text"></p>
+      <div class="card">
+        <div class="card-id" hidden ></div>
+        <img class="card-img" src=""  alt="image_film">
+        <p class="card-title"></p>
+        <p class="card-description"></p>
       </div>
-      <button class="next">next</button>
+      <div class="btn-slider">
+        <button class="prev">prev</button>
+        <button class="next">next</button>
+      </div>
     </div>
   </main>
   <footer></footer>  
