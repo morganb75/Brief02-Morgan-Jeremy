@@ -1,0 +1,16 @@
+{
+    "personnes": [
+        {
+            "nom": "jean",
+            "ville":"Paris" 
+        },
+        {
+            "nom": "elisa",
+            "ville":"Lyon" 
+        },
+        {
+            "nom": "pierre",
+            "ville":"Marseille" 
+        }
+    ]
+}

@@ -34,9 +34,20 @@ a {
 }
 
 main {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
     min-height: 70vh;
-    
 }
+
+.btn-slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
 
 footer {
     display: flex;
