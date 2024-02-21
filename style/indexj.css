@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -37,7 +37,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.8;
-    background-color: rgba(137, 43, 226, 0.808);  
+    background-color: rgba(194, 175, 212, 0.808);  
 
     /* background: url("../assets/img/dragon-ball.jpg"); */
 }
@@ -47,7 +47,6 @@ h1{
     color: rgb(19, 83, 23);
     text-align: center;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .Présentation{
     display: flex;
@@ -55,7 +54,7 @@ h1{
     margin-bottom: 10px;
     width: 100%;
     color:rgb(0, 2, 0);
-  text-align: justify;
+     text-align: justify;
 
 }
 footer {
@@ -65,4 +64,16 @@ footer {
     background: black;
     color: white;
     justify-content: center;
+}
+@media (max-width: 600px) {
+    main > .Présentation{
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px) {
+    main > .Présentation{
+        flex-basis: 100%;
+        flex-direction: column;
+    }
 }

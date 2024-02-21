@@ -1,0 +1,1 @@
+difficulté sur JS, du coup j'ai laissé Morgan gérer cette partie, il fait le carroussel.
