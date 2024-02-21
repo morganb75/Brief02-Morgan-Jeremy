@@ -65,15 +65,25 @@ footer {
     color: white;
     justify-content: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     main > .Présentation{
+        display: flex;
         flex-basis: 100%;
         flex-direction: column;
+    } 
+    header{
+        display: flex;
+        width: 100%;
     }
 }
 @media (max-width: 600px) {
     main > .Présentation{
+        display: flex;
         flex-basis: 100%;
         flex-direction: column;
+    }
+    header{
+        display: flex;
+        width: 100%;
     }
 }

@@ -9,49 +9,35 @@
 </head>
 <body>
     <header>
-<<<<<<< HEAD
-        <div class="home">
-            <p>Welcome in world of:</p>
-        </div>
-        <div class="logo">
-            <img src="./assets/img/Dragon-Ball-Logo.png" alt="Logo" >
-        </div>
-        <div class="nav-container">
-            <nav class="nav-m">
-                <a href="./presentation.html">Presentation</a>
-                <a href="./produit.html">Produits</a>
-                <a href="./home.html">Accueil</a>
-            </nav>
-        </div>
-=======
->>>>>>> 3475b4a (fin de journee)
     </header>
     <main>
         <h1>NOUS CONTACTER :</h1>
         
-        <form action="#" method="post">
+        <form>
             <ul>
                 <li>
                     <label for="name">Name:</label>
-                    <input type="text">
+                    <input type="text" name="name">
                 </li>
                 <li>
                     <label for="first-name">First-Name:</label>
-                    <input type="text">
+                    <input type="text" name="first-name">
                 </li>
                 <li>
                     <label for="Email">Email:</label>
-                    <input type="email">
+                    <input type="email" name="email">
                 </li>
                 <li>
                     <label for="message">Message:</label>
                     <textarea name="message" id="" cols="30" rows="10"></textarea>
                 </li>
-            </ul>
-            <button type="submit">SEND MESSAGE</button>
+            </ul>    
+            <input type="submit" class="btn" value="SEND MESSAGE"/>
         </form>
+        <div class="MP" hidden></div>
     </main>
     <footer>
     </footer>
 </body>
+<script src="assets/contact.js"></script>
 </html>

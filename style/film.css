@@ -89,4 +89,34 @@ footer {
     flex-direction: column;
 }
 
+@media (max-width: 900px) {
+    header{
+        display: flex;
+        width: 100%;
+    }
+    main {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: row;
+        text-align: justify;
+    } 
+    .card-container>img{
+        width: 25%;
+        height: 25%;
+
+    }
+}    
+@media (max-width: 600px) {
+    main {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: row;
+        text-align: justify;
+    }
+   
+    header{
+        display: flex;
+        width: 100%;
+    }
+}
 
