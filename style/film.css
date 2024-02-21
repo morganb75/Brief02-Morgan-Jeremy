@@ -85,3 +85,8 @@ footer {
     color: white;
     justify-content: center;
 }
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
