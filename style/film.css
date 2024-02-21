@@ -76,8 +76,6 @@ button {
     justify-content: space-evenly;
 }
 
-
-
 footer {
     display: flex;
     padding:15px;
@@ -90,3 +88,5 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+
